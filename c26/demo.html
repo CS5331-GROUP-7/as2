@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	
+	<script>
+		window.onload = function() {
+			var receiver = document.getElementById('receiver').contentWindow;
+			receiver.postMessage("demo send msg", 'https://www.wsb.com/Assignment2/case26/receiver.php');
+	};
+	
+	</script>
+
+</head>
+<body>
+	<h1>Case 26</h1>
+	<h1>Send Message utility</h1>
+	<font color="red">
+        Demo page modified to send message to the iframe with incorrect origin
+	</font>
+
+    <p/>
+	<iframe id="receiver" src="https://www.wsb.com/Assignment2/case26/receiver.php" height="200" width="400">
+	  &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
+	</iframe>
+	
+
+
+</body></html>
