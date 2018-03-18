@@ -2,6 +2,7 @@
 
 apt-get install python-pip
 pip install selenium==2.53.6
+pip intall bs4
 
 #mkdir /root/bin
 #cd /root/bin
