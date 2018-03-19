@@ -3,6 +3,7 @@
 apt-get install python-pip
 pip install selenium==2.53.6
 pip intall bs4
+pip install scapy
 
 #mkdir /root/bin
 #cd /root/bin
